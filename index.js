@@ -40,7 +40,7 @@ const startTime = () => {
 
     let time = hh + ':' + mm + ':' + ss + ' ' + day;
     clock.innerText = time;
-    let t = setTimeout(() => {startTime()}, 1000);
+    let t = setInterval(() => {startTime()}, 1000);
 }
 
 startTime();
