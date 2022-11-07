@@ -13,12 +13,22 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     background-color: #444;
     width: 100%;
     height: 80px;
+}
+
+.date {
+    width: 240px;
+    margin: 0 0 0 80px;
+    border-radius: 10px;
+}
+
+.date h1 {
+    text-align: center;
 }
 
 .designed-by {
@@ -59,14 +69,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.screen {
     background-color: #000;
+}
+
+.screen h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #08fe03;
 }
 
 .clock h1 {
     font-size: 6rem;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: #08fe03;
 }
 
 .footer {
